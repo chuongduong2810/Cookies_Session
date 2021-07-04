@@ -67,7 +67,7 @@ namespace WebApplication1.Controllers
                 if (existedSession != null)
                 {
                     ViewBag.username = existedSession.Username;
-                    return View();
+                    return RedirectToAction("Index","Home");
                 }
                 else return View();
             }

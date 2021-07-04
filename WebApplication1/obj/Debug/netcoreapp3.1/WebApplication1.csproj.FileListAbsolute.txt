@@ -38,4 +38,3 @@ F:\MWG\Session and cookie\Session and cookie\WebApplication1\obj\Debug\netcoreap
 F:\MWG\Session and cookie\Session and cookie\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 F:\MWG\Session and cookie\Session and cookie\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Index.cshtml.g.cs
 F:\MWG\Session and cookie\Session and cookie\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
-F:\MWG\Session and cookie\Session and cookie\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
