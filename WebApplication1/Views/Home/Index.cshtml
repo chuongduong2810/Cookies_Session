@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section scripts{ 
+<script>
+    function handleOnclick() {
+        //var sessionID = document.cookie.split('; ').find(row => row.startsWith('sessionID'))
+        //console.log(sessionID);
+        console.log(document.cookie);
+
+        document.cookie = "sessionID=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        console.log(document.cookie);
+        window.location.replace("/")
+
+    }
+</script>
+}
+<div class="text-center">
+    <h1 class="display-4">Home Page</h1>
+    <h2 class="display-4">Hello @ViewBag.username</h2>
+    <button class="btn btn-danger" href="#" onclick="handleOnclick()">Log out</button>
+</div>
